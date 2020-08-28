@@ -33,8 +33,7 @@ chmod +x $BUILD_DIR/.profile.d/install_awscli.sh
 rm -rf /tmp/awscli*
 
 echo "-----> installing groff and less"
-apt-get update -y
-apt-get install -y groff
-apt-get install -y less
+apt install groff
+apt install less
 
 echo "-----> aws cli installation done"
